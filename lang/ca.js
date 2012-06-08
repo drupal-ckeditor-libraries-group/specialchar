@@ -3,47 +3,47 @@
  * For licensing, see LICENSE.html or http://ckeditor.com/license
  */
 
-CKEDITOR.plugins.setLang( 'specialchar', 'hr', {
-	toolbar: 'Ubaci posebne znakove',
-	title: 'Odaberite posebni karakter',
-	options: 'Opcije specijalnih znakova',
-	euro: 'Euro znak',
-	lsquo: 'Lijevi jednostruki navodnik',
-	rsquo: 'Desni jednostruki navodnik',
-	ldquo: 'Lijevi dvostruki navodnik',
-	rdquo: 'Desni dvostruki navodnik',
-	ndash: 'En crtica',
-	mdash: 'Em crtica',
-	iexcl: 'Naopaki uskličnik',
-	cent: 'Cent znak',
-	pound: 'Funta znak',
-	curren: 'Znak valute',
-	yen: 'Yen znak',
-	brvbar: 'Potrgana prečka',
-	sect: 'Znak odjeljka',
+CKEDITOR.plugins.setLang( 'specialchar', 'ca', {
+	options: 'Opcions de caràcters especials',
+	title: 'Selecciona el caràcter especial',
+	toolbar: 'Insereix caràcter especial',
+	euro: 'Euro sign', // MISSING
+	lsquo: 'Left single quotation mark', // MISSING
+	rsquo: 'Right single quotation mark', // MISSING
+	ldquo: 'Left double quotation mark', // MISSING
+	rdquo: 'Right double quotation mark', // MISSING
+	ndash: 'En dash', // MISSING
+	mdash: 'Em dash', // MISSING
+	iexcl: 'Inverted exclamation mark', // MISSING
+	cent: 'Cent sign', // MISSING
+	pound: 'Pound sign', // MISSING
+	curren: 'Currency sign', // MISSING
+	yen: 'Yen sign', // MISSING
+	brvbar: 'Broken bar', // MISSING
+	sect: 'Section sign', // MISSING
 	uml: 'Diaeresis', // MISSING
-	copy: 'Copyright znak',
+	copy: 'Copyright sign', // MISSING
 	ordf: 'Feminine ordinal indicator', // MISSING
-	laquo: 'Lijevi dvostruki uglati navodnik',
-	not: 'Not znak',
-	reg: 'Registered znak',
+	laquo: 'Left-pointing double angle quotation mark', // MISSING
+	not: 'Not sign', // MISSING
+	reg: 'Registered sign', // MISSING
 	macr: 'Macron', // MISSING
-	deg: 'Stupanj znak',
+	deg: 'Degree sign', // MISSING
 	sup2: 'Superscript two', // MISSING
 	sup3: 'Superscript three', // MISSING
 	acute: 'Acute accent', // MISSING
 	micro: 'Micro sign', // MISSING
 	para: 'Pilcrow sign', // MISSING
-	middot: 'Srednja točka',
+	middot: 'Middle dot', // MISSING
 	cedil: 'Cedilla', // MISSING
 	sup1: 'Superscript one', // MISSING
 	ordm: 'Masculine ordinal indicator', // MISSING
-	raquo: 'Desni dvostruku uglati navodnik',
+	raquo: 'Right-pointing double angle quotation mark', // MISSING
 	frac14: 'Vulgar fraction one quarter', // MISSING
 	frac12: 'Vulgar fraction one half', // MISSING
 	frac34: 'Vulgar fraction three quarters', // MISSING
-	iquest: 'Naopaki upitnik',
-	Agrave: 'Veliko latinsko slovo A s akcentom',
+	iquest: 'Inverted question mark', // MISSING
+	Agrave: 'Latin capital letter A with grave accent', // MISSING
 	Aacute: 'Latin capital letter A with acute accent', // MISSING
 	Acirc: 'Latin capital letter A with circumflex', // MISSING
 	Atilde: 'Latin capital letter A with tilde', // MISSING
