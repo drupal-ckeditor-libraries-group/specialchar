@@ -3,39 +3,39 @@
  * For licensing, see LICENSE.html or http://ckeditor.com/license
  */
 
-CKEDITOR.plugins.setLang( 'specialchar', 'fa', {
-	euro: 'نشان یورو',
-	lsquo: 'علامت نقل قول تکی چپ',
-	rsquo: 'علامت نقل قول تکی راست',
-	ldquo: 'علامت دوتایی نقل قول چپ',
-	rdquo: 'علامت دوتایی نقل قول راست',
-	ndash: 'خط تیره En',
-	mdash: 'خط تیره Em',
-	iexcl: 'علامت گذاری به عنوان علامت تعجب وارونه',
-	cent: 'نشان سنت',
-	pound: 'نشان پوند',
-	curren: 'نشان ارز',
-	yen: 'نشان ین',
-	brvbar: 'نوار شکسته',
-	sect: 'نشان بخش',
+CKEDITOR.plugins.setLang( 'specialchar', 'ca', {
+	euro: 'Símbol d\'euro',
+	lsquo: 'Signe de cometa simple esquerra',
+	rsquo: 'Signe de cometa simple dreta',
+	ldquo: 'Signe de cometa doble esquerra',
+	rdquo: 'Signe de cometa doble dreta',
+	ndash: 'Guió',
+	mdash: 'Guió baix',
+	iexcl: 'Signe d\'exclamació inversa',
+	cent: 'Símbol de percentatge',
+	pound: 'Símbol de lliura',
+	curren: 'Símbol de moneda',
+	yen: 'Símbol de Yen',
+	brvbar: 'Broken bar', // MISSING
+	sect: 'Section sign', // MISSING
 	uml: 'Diaeresis', // MISSING
-	copy: 'نشان کپی رایت',
+	copy: 'Símbol de Copyright',
 	ordf: 'Feminine ordinal indicator', // MISSING
 	laquo: 'Left-pointing double angle quotation mark', // MISSING
-	not: 'علامت ثبت نشده',
-	reg: 'علامت ثبت شده',
+	not: 'Not sign', // MISSING
+	reg: 'Registered sign', // MISSING
 	macr: 'Macron', // MISSING
-	deg: 'نشان درجه',
-	sup2: 'بالانویس دو',
-	sup3: 'بالانویس سه',
-	acute: 'لهجه غلیظ',
-	micro: 'نشان مایکرو',
+	deg: 'Degree sign', // MISSING
+	sup2: 'Superscript two', // MISSING
+	sup3: 'Superscript three', // MISSING
+	acute: 'Acute accent', // MISSING
+	micro: 'Micro sign', // MISSING
 	para: 'Pilcrow sign', // MISSING
-	middot: 'نقطه میانی',
+	middot: 'Middle dot', // MISSING
 	cedil: 'Cedilla', // MISSING
 	sup1: 'Superscript one', // MISSING
 	ordm: 'Masculine ordinal indicator', // MISSING
-	raquo: 'نشان زاویه‌دار دوتایی نقل قول راست چین',
+	raquo: 'Right-pointing double angle quotation mark', // MISSING
 	frac14: 'Vulgar fraction one quarter', // MISSING
 	frac12: 'Vulgar fraction one half', // MISSING
 	frac34: 'Vulgar fraction three quarters', // MISSING
@@ -119,7 +119,7 @@ CKEDITOR.plugins.setLang( 'specialchar', 'fa', {
 	bull: 'Bullet', // MISSING
 	rarr: 'Rightwards arrow', // MISSING
 	rArr: 'Rightwards double arrow', // MISSING
-	hArr: 'جهت‌نمای دوتایی چپ به راست',
+	hArr: 'Left right double arrow', // MISSING
 	diams: 'Black diamond suit', // MISSING
-	asymp: 'تقریبا برابر با'
+	asymp: 'Almost equal to' // MISSING
 });
