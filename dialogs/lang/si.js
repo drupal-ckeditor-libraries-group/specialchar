@@ -3,44 +3,44 @@
  * For licensing, see LICENSE.html or http://ckeditor.com/license
  */
 
-CKEDITOR.plugins.setLang( 'specialchar', 'hr', {
-	euro: 'Euro znak',
-	lsquo: 'Lijevi jednostruki navodnik',
-	rsquo: 'Desni jednostruki navodnik',
-	ldquo: 'Lijevi dvostruki navodnik',
-	rdquo: 'Desni dvostruki navodnik',
-	ndash: 'En crtica',
-	mdash: 'Em crtica',
-	iexcl: 'Naopaki uskličnik',
-	cent: 'Cent znak',
-	pound: 'Funta znak',
-	curren: 'Znak valute',
-	yen: 'Yen znak',
-	brvbar: 'Potrgana prečka',
-	sect: 'Znak odjeljka',
-	uml: 'Prijeglasi',
-	copy: 'Copyright znak',
-	ordf: 'Feminine ordinal indicator', // MISSING
-	laquo: 'Lijevi dvostruki uglati navodnik',
-	not: 'Not znak',
-	reg: 'Registered znak',
-	macr: 'Macron', // MISSING
-	deg: 'Stupanj znak',
-	sup2: 'Superscript two', // MISSING
+CKEDITOR.plugins.setLang( 'specialchar', 'si', {
+	euro: 'යුරෝ සලකුණ',
+	lsquo: 'වමේ තනි උපුටා දක්වීම ',
+	rsquo: 'දකුණේ තනි උපුටා දක්වීම ',
+	ldquo: 'වමේ දිත්ව  උපුටා දක්වීම ',
+	rdquo: 'දකුණේ දිත්ව  උපුටා දක්වීම ',
+	ndash: 'En dash', // MISSING
+	mdash: 'Em dash', // MISSING
+	iexcl: 'යටිකුරු හර්ෂදී ',
+	cent: 'Cent sign', // MISSING
+	pound: 'Pound sign', // MISSING
+	curren: 'මුල්‍යමය ',
+	yen: 'යෙන් ',
+	brvbar: 'Broken bar', // MISSING
+	sect: 'තෙරේම් ',
+	uml: 'Diaeresis', // MISSING
+	copy: 'පිටපත් අයිතිය ',
+	ordf: 'දර්ශකය',
+	laquo: 'Left-pointing double angle quotation mark', // MISSING
+	not: 'සලකුණක් නොවේ',
+	reg: 'සලකුණක් ලියාපදිංචි කිරීම',
+	macr: 'මුද්‍රිත ',
+	deg: 'සලකුණේ ',
+	sup2: 'උඩු ලකුණු දෙක',
 	sup3: 'Superscript three', // MISSING
 	acute: 'Acute accent', // MISSING
-	micro: 'Mikro znak',
+	micro: 'Micro sign', // MISSING
 	para: 'Pilcrow sign', // MISSING
-	middot: 'Srednja točka',
+	middot: 'Middle dot', // MISSING
 	cedil: 'Cedilla', // MISSING
 	sup1: 'Superscript one', // MISSING
 	ordm: 'Masculine ordinal indicator', // MISSING
-	raquo: 'Desni dvostruku uglati navodnik',
+	raquo: 'Right-pointing double angle quotation mark', // MISSING
 	frac14: 'Vulgar fraction one quarter', // MISSING
 	frac12: 'Vulgar fraction one half', // MISSING
 	frac34: 'Vulgar fraction three quarters', // MISSING
-	iquest: 'Naopaki upitnik',
-	Agrave: 'Veliko latinsko slovo A s akcentom',
+	iquest: 'Inverted question mark', // MISSING
+	Agrave: 'Latin capital letter A with grave accent', // MISSING
 	Aacute: 'Latin capital letter A with acute accent', // MISSING
 	Acirc: 'Latin capital letter A with circumflex', // MISSING
 	Atilde: 'Latin capital letter A with tilde', // MISSING

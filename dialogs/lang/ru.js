@@ -3,44 +3,44 @@
  * For licensing, see LICENSE.html or http://ckeditor.com/license
  */
 
-CKEDITOR.plugins.setLang( 'specialchar', 'hr', {
-	euro: 'Euro znak',
-	lsquo: 'Lijevi jednostruki navodnik',
-	rsquo: 'Desni jednostruki navodnik',
-	ldquo: 'Lijevi dvostruki navodnik',
-	rdquo: 'Desni dvostruki navodnik',
-	ndash: 'En crtica',
-	mdash: 'Em crtica',
-	iexcl: 'Naopaki uskličnik',
-	cent: 'Cent znak',
-	pound: 'Funta znak',
-	curren: 'Znak valute',
-	yen: 'Yen znak',
-	brvbar: 'Potrgana prečka',
-	sect: 'Znak odjeljka',
-	uml: 'Prijeglasi',
-	copy: 'Copyright znak',
+CKEDITOR.plugins.setLang( 'specialchar', 'ru', {
+	euro: 'Евро',
+	lsquo: 'Left single quotation mark', // MISSING
+	rsquo: 'Right single quotation mark', // MISSING
+	ldquo: 'Left double quotation mark', // MISSING
+	rdquo: 'Right double quotation mark', // MISSING
+	ndash: 'Среднее тире',
+	mdash: 'Длинное тире',
+	iexcl: 'перевёрнутый восклицательный знак',
+	cent: 'Цент',
+	pound: 'Фунт',
+	curren: 'Знак валюты',
+	yen: 'Йена',
+	brvbar: 'Вертикальная черта с разрывом',
+	sect: 'Знак параграфа',
+	uml: 'Умлаут',
+	copy: 'Знак охраны авторского права',
 	ordf: 'Feminine ordinal indicator', // MISSING
-	laquo: 'Lijevi dvostruki uglati navodnik',
-	not: 'Not znak',
-	reg: 'Registered znak',
-	macr: 'Macron', // MISSING
-	deg: 'Stupanj znak',
-	sup2: 'Superscript two', // MISSING
-	sup3: 'Superscript three', // MISSING
-	acute: 'Acute accent', // MISSING
-	micro: 'Mikro znak',
-	para: 'Pilcrow sign', // MISSING
-	middot: 'Srednja točka',
-	cedil: 'Cedilla', // MISSING
-	sup1: 'Superscript one', // MISSING
-	ordm: 'Masculine ordinal indicator', // MISSING
-	raquo: 'Desni dvostruku uglati navodnik',
-	frac14: 'Vulgar fraction one quarter', // MISSING
-	frac12: 'Vulgar fraction one half', // MISSING
-	frac34: 'Vulgar fraction three quarters', // MISSING
-	iquest: 'Naopaki upitnik',
-	Agrave: 'Veliko latinsko slovo A s akcentom',
+	laquo: 'Левая кавычка-«ёлочка»',
+	not: 'Отрицание',
+	reg: 'Знак охраны смежных прав\\t',
+	macr: 'Макрон',
+	deg: 'Градус',
+	sup2: 'Надстрочное два',
+	sup3: 'Надстрочное три',
+	acute: 'Акут',
+	micro: 'Микро',
+	para: 'Абзац',
+	middot: 'Интерпункт',
+	cedil: 'Седиль',
+	sup1: 'Надстрочная единица',
+	ordm: 'Порядковое числительное',
+	raquo: 'Правая кавычка-«ёлочка»',
+	frac14: 'Одна четвертая',
+	frac12: 'Одна вторая',
+	frac34: 'Три четвёртых',
+	iquest: 'Перевёрнутый вопросительный знак',
+	Agrave: 'Latin capital letter A with grave accent', // MISSING
 	Aacute: 'Latin capital letter A with acute accent', // MISSING
 	Acirc: 'Latin capital letter A with circumflex', // MISSING
 	Atilde: 'Latin capital letter A with tilde', // MISSING
@@ -63,7 +63,7 @@ CKEDITOR.plugins.setLang( 'specialchar', 'hr', {
 	Ocirc: 'Latin capital letter O with circumflex', // MISSING
 	Otilde: 'Latin capital letter O with tilde', // MISSING
 	Ouml: 'Latin capital letter O with diaeresis', // MISSING
-	times: 'Multiplication sign', // MISSING
+	times: 'Знак умножения',
 	Oslash: 'Latin capital letter O with stroke', // MISSING
 	Ugrave: 'Latin capital letter U with grave accent', // MISSING
 	Uacute: 'Latin capital letter U with acute accent', // MISSING
@@ -95,7 +95,7 @@ CKEDITOR.plugins.setLang( 'specialchar', 'hr', {
 	ocirc: 'Latin small letter o with circumflex', // MISSING
 	otilde: 'Latin small letter o with tilde', // MISSING
 	ouml: 'Latin small letter o with diaeresis', // MISSING
-	divide: 'Division sign', // MISSING
+	divide: 'Знак деления',
 	oslash: 'Latin small letter o with stroke', // MISSING
 	ugrave: 'Latin small letter u with grave accent', // MISSING
 	uacute: 'Latin small letter u with acute accent', // MISSING
@@ -113,13 +113,13 @@ CKEDITOR.plugins.setLang( 'specialchar', 'hr', {
 	sbquo: 'Single low-9 quotation mark', // MISSING
 	'8219': 'Single high-reversed-9 quotation mark', // MISSING
 	bdquo: 'Double low-9 quotation mark', // MISSING
-	hellip: 'Horizontal ellipsis', // MISSING
-	trade: 'Trade mark sign', // MISSING
+	hellip: 'Горизонтальное многоточие',
+	trade: 'Товарный знак',
 	'9658': 'Black right-pointing pointer', // MISSING
-	bull: 'Bullet', // MISSING
-	rarr: 'Rightwards arrow', // MISSING
-	rArr: 'Rightwards double arrow', // MISSING
-	hArr: 'Left right double arrow', // MISSING
+	bull: 'Маркер списка',
+	rarr: 'Стрелка вправо',
+	rArr: 'Двойная стрелка вправо',
+	hArr: 'Двойная стрелка влево-вправо',
 	diams: 'Black diamond suit', // MISSING
-	asymp: 'Almost equal to' // MISSING
+	asymp: 'Примерно равно'
 });
