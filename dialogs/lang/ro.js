@@ -3,24 +3,24 @@
  * For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
  */
 
-CKEDITOR.plugins.setLang( 'specialchar', 'en-ca', {
-	euro: 'Euro sign', // MISSING
-	lsquo: 'Left single quotation mark', // MISSING
-	rsquo: 'Right single quotation mark', // MISSING
-	ldquo: 'Left double quotation mark', // MISSING
-	rdquo: 'Right double quotation mark', // MISSING
-	ndash: 'En dash', // MISSING
-	mdash: 'Em dash', // MISSING
-	iexcl: 'Inverted exclamation mark', // MISSING
-	cent: 'Cent sign', // MISSING
-	pound: 'Pound sign', // MISSING
-	curren: 'Currency sign', // MISSING
-	yen: 'Yen sign', // MISSING
-	brvbar: 'Broken bar', // MISSING
-	sect: 'Section sign', // MISSING
-	uml: 'Diaeresis', // MISSING
-	copy: 'Copyright sign', // MISSING
-	ordf: 'Feminine ordinal indicator', // MISSING
+CKEDITOR.plugins.setLang( 'specialchar', 'ro', {
+	euro: 'Simbol EURO €',
+	lsquo: 'Ghilimea simplă stânga',
+	rsquo: 'Ghilimea simplă dreapta',
+	ldquo: 'Ghilimea dublă stânga',
+	rdquo: 'Ghilimea dublă dreapta',
+	ndash: 'liniuță despărțire cu spații',
+	mdash: 'liniuță despărțire cuvinte fără spații',
+	iexcl: 'semnul exclamației inversat',
+	cent: 'simbol cent',
+	pound: 'simbol lira sterlină',
+	curren: 'simbol monedă',
+	yen: 'simbol yen',
+	brvbar: 'bara verticală întreruptă',
+	sect: 'simbol paragraf',
+	uml: 'tréma',
+	copy: 'simbol drept de autor',
+	ordf: 'Indicatorul ordinal feminin a superscript',
 	laquo: 'Left-pointing double angle quotation mark', // MISSING
 	not: 'Not sign', // MISSING
 	reg: 'Registered sign', // MISSING
@@ -32,21 +32,21 @@ CKEDITOR.plugins.setLang( 'specialchar', 'en-ca', {
 	micro: 'Micro sign', // MISSING
 	para: 'Pilcrow sign', // MISSING
 	middot: 'Middle dot', // MISSING
-	cedil: 'Cedilla', // MISSING
+	cedil: 'Sedila',
 	sup1: 'Superscript one', // MISSING
 	ordm: 'Masculine ordinal indicator', // MISSING
 	raquo: 'Right-pointing double angle quotation mark', // MISSING
 	frac14: 'Vulgar fraction one quarter', // MISSING
 	frac12: 'Vulgar fraction one half', // MISSING
 	frac34: 'Vulgar fraction three quarters', // MISSING
-	iquest: 'Inverted question mark', // MISSING
+	iquest: 'Semnul întrebării inversat',
 	Agrave: 'Latin capital letter A with grave accent', // MISSING
 	Aacute: 'Latin capital letter A with acute accent', // MISSING
 	Acirc: 'Latin capital letter A with circumflex', // MISSING
 	Atilde: 'Latin capital letter A with tilde', // MISSING
 	Auml: 'Latin capital letter A with diaeresis', // MISSING
 	Aring: 'Latin capital letter A with ring above', // MISSING
-	AElig: 'Latin capital letter Æ',
+	AElig: 'Latin capital letter Æ', // MISSING
 	Ccedil: 'Latin capital letter C with cedilla', // MISSING
 	Egrave: 'Latin capital letter E with grave accent', // MISSING
 	Eacute: 'Latin capital letter E with acute accent', // MISSING
@@ -63,7 +63,7 @@ CKEDITOR.plugins.setLang( 'specialchar', 'en-ca', {
 	Ocirc: 'Latin capital letter O with circumflex', // MISSING
 	Otilde: 'Latin capital letter O with tilde', // MISSING
 	Ouml: 'Latin capital letter O with diaeresis', // MISSING
-	times: 'Multiplication sign', // MISSING
+	times: 'Simbol înmulțire',
 	Oslash: 'Latin capital letter O with stroke', // MISSING
 	Ugrave: 'Latin capital letter U with grave accent', // MISSING
 	Uacute: 'Latin capital letter U with acute accent', // MISSING
@@ -95,7 +95,7 @@ CKEDITOR.plugins.setLang( 'specialchar', 'en-ca', {
 	ocirc: 'Latin small letter o with circumflex', // MISSING
 	otilde: 'Latin small letter o with tilde', // MISSING
 	ouml: 'Latin small letter o with diaeresis', // MISSING
-	divide: 'Division sign', // MISSING
+	divide: 'Simbol împărțire',
 	oslash: 'Latin small letter o with stroke', // MISSING
 	ugrave: 'Latin small letter u with grave accent', // MISSING
 	uacute: 'Latin small letter u with acute accent', // MISSING
@@ -121,5 +121,5 @@ CKEDITOR.plugins.setLang( 'specialchar', 'en-ca', {
 	rArr: 'Rightwards double arrow', // MISSING
 	hArr: 'Left right double arrow', // MISSING
 	diams: 'Black diamond suit', // MISSING
-	asymp: 'Almost equal to' // MISSING
+	asymp: 'Aproximativ egal cu'
 } );
